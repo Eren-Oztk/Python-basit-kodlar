@@ -1,0 +1,11 @@
+yas= int(input("Lütfen bir sayı giriniz:"))
+if(yas<0):
+    print("Girdiğiniz sayı negatif ( {} )".format(yas))
+    if(yas % 2==0):
+        print("Girdiğiniz sayı negatif ve çift sayıdır.".format(yas) )
+    elif (yas % 2 == 1):
+            print("Girdiğiniz sayı negatif ve tek sayıdır.".format(yas))
+elif(yas % 2==0):
+    print("Girdiğiniz sayı Pozitif ve Çift sayıdır. ( {} )".format(yas))
+elif(yas % 2==1):
+    print("Girdiğiniz sayı Pozitif ve tek sayıdır. ( {} )".format(yas))
